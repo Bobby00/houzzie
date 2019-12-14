@@ -29,8 +29,6 @@ body {
   font-weight: 600!important;
 }
 
-
-
 @media (max-width: 600px) {
   .btn:not(:last-child) {
       width: 100%;
