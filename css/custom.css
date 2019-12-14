@@ -31,8 +31,6 @@ body {
 
 
 
-
-
 @media (max-width: 600px) {
   .btn:not(:last-child) {
       width: 100%;
