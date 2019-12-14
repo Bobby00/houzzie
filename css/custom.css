@@ -1,0 +1,47 @@
+html {
+  background-color: #303A71;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif!important;
+}
+body {
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif!important;
+}
+.bg-dark-purple {
+  background-color: #303A71;
+}
+.bg-light-purple {
+  background-color: #3B3E78;
+}
+.clr-whte {
+  color: white!important;
+}
+.mgn-tp_0 {
+  margin-top: 0px!important;
+}
+.mgn-tp-5 {
+  margin-top: 5%;
+}
+.mgn-btm-10 {
+  margin-bottom: 10%;
+}
+.fnt-w8-600 {
+  font-weight: 600!important;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+  .btn:not(:last-child) {
+      width: 100%;
+  }
+  .btn {
+      font-size: 1.58714286em;
+    }
+  section, footer, section.section--even {
+      padding-top: 1.571429em;
+      padding-bottom: 0em;
+  }
+}
