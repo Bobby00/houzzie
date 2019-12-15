@@ -25,8 +25,36 @@ body {
 .mgn-btm-10 {
   margin-bottom: 10%;
 }
+
+.mgn-btm-20 {
+  margin-bottom: 20%;
+}
+
 .fnt-w8-600 {
   font-weight: 600!important;
+}
+
+.pd-tp-8{
+  padding-top: 8px;
+}
+.pd-tp-10 {
+  padding-top: 10px;
+}
+
+.fa, .fas {
+  font-size: 22px;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.bottom-navbar {
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 12px 0px;
 }
 
 @media (max-width: 600px) {

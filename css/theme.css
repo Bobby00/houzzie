@@ -952,7 +952,6 @@ div[data-overlay] ul {
 .btn--primary,
 .btn--primary:visited {
   background: #fff;
-  border-color: #289F6E;
 }
 .btn--primary .btn__text,
 .btn--primary:visited .btn__text {
@@ -3178,7 +3177,7 @@ form[action*='list-manage.com'] .small-meta {
 }
 /**! 34. Bars **/
 .bar {
-  padding: 1.85714286em 0;
+  padding: 0.85714286em 0;
 }
 .bar .logo {
   margin: 0;
@@ -4741,7 +4740,7 @@ section.parallax .row .background-image-holder {
   font-family: 'Montserrat', sans-serif!important;
 }
 .bar .logo {
-  max-height: 1.85714286em;
+  max-height: 4.05714286em;
   max-width: none;
 }
 .menu-horizontal > li > a,
@@ -8911,7 +8910,7 @@ footer a.type--fine-print:not(:first-child) {
   margin-left: 1.85714286em;
 }
 footer .logo {
-  max-height: 1.67142857em;
+  max-height: 3.67142857em;
 }
 footer ul:not(.list-inline):not(.slides) > li {
   line-height: 2.32142857em !important;
@@ -8965,7 +8964,7 @@ footer.footer-7 {
     top: 9px;
   }
   footer.footer-3 .row:last-child {
-    margin-top: 1.85714286em;
+    margin-top: 0.25714286em;
   }
   footer.footer-4 .logo + span {
     position: relative;
