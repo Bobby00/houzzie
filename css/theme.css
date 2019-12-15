@@ -4449,7 +4449,7 @@ p > .btn {
 }
 @media all and (max-width: 767px) {
   .btn:not(:last-child) {
-    margin-bottom: 1.85714286em;
+    margin-bottom: 1.25714286em;
   }
 }
 .btn--icon {
@@ -7207,7 +7207,7 @@ textarea {
 input[type]:focus,
 select:focus,
 textarea:focus {
-  border-color: #76abe9;
+  border-color: none;
 }
 input[type="image"] {
   border: none;
