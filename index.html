@@ -105,7 +105,7 @@
         <div class="main-container bg-dark-purple">
             <section class="cover unpad--bottom bg-dark-purple bg--secondary mb--1 switchable">
                 <div class="container">
-                    <div class="row mgn-btm-20">
+                    <div class="row">
                         <div class="col-sm-6">
                             <div class="mt--2">
                                 <h1 class="clr-whte fnt-w8-600 hidden-xs">Your search for a reliable domestic manager ends here</h1>
@@ -118,56 +118,68 @@
                                     </div>
 
                                     <center>
-                                        <img style="width: 50%;" src="img/assets/logo-short-1.png">
+                                        <img id="reduce_sze_active" style="width: 50%;" src="img/assets/logo-short-1.png">
                                     </center>
                                 </div>    
-                                <a class="btn btn--primary mgn-tp_0" id="choose_home_owner" href="#0">
-                                    <span class="btn__text">I am a Father/Mother</span> 
-                                </a>
                                 
-                                <a class="btn btn--primary" href="#customise-template">
-                                    <span class="btn__text">I am a Helper</span> 
-                                </a>
-                        <p class="lead mgn-tp-5 clr-whte">We'd like to know more about you to offer you exactly what you need. </p> 
+                                <div id="swap_large" class="swap-to-mini">
+                                    <a class="btn btn--primary mgn-tp_0" id="choose_home_owner" href="#bottomNav">
+                                        <span class="btn__text">I am a Father/Mother</span> 
+                                    </a>
+                                    
+                                    <a class="btn btn--primary" href="#customise-template">
+                                        <span class="btn__text">I am a Helper</span> 
+                                    </a>
+
+                                    <p class="lead mgn-tp-5 clr-whte">We'd like to know more about you to offer you exactly what you need. 
+                                    </p>
+                                </div>
+                                <div id="swap_mini" class="text-center swap-to-large">
+                                    <p class="clr-whte mrgn_btm--4"><strong class="clr-whte">Welcome to Houzzie!!</strong></p>
+                                    <p class="clr-whte">I am a Mother/Father</p> 
+                                </div>
                          </div>
                         </div>
-                        <div class="col-sm-6 col-md-5"> <img class="flipInX animated" style="width: 80%;" alt="Image" src="img/assets/vacuum-person.png"> </div>
+                        <div class="col-sm-6 col-md-5"> <img id="hidden_on_page_activity" class="flipInX animated mgn_btm-xs" style="width: 80%;" alt="Image" src="img/assets/vacuum-person.png"> </div>
+                    </div>
+                </div>
+
+                <div id="bottomNav" class="bottom-nav">
+                <div class="container">
+                    <div class="row">
+                        <div id="sign_in_1" class="col-xs-12">
+                            <form>
+                              <label>
+                                <p class="label-txt">Email Address</p>
+                                <input type="text" class="input">
+                                <div class="line-box">
+                                  <div class="line"></div>
+                                </div>
+                              </label>
+                              <label>
+                                <p class="label-txt">Password</p>
+                                <input type="text" class="input">
+                                <div class="line-box">
+                                  <div class="line"></div>
+                                </div>
+                              </label>
+                              
+                            <a class="btn btn--primary sec-btn mgn-btm-0 mgn-tp_0" href="#customise-template">
+                               <span class="btn__text sec-btn-txt">Login</span> 
+                            </a>
+                            <p class="text-center ">Forgot your username/ password?</p>
+                            <a class="btn btn--primary inv-btn mgn-tp_0" href="#customise-template">
+                               <span class="btn__text inv-btn-txt">Login with Google</span> 
+                            </a>
+                            <p class="fnt-16 pd-btm-15">No Account?<a class="sign-up-link" href="#0"> Sign up</a></p>
+                            </form>
+                        </div>
                     </div>
                 </div>
 
                 <div class="bottom-navbar animated fadeInUp hidden-md text-center hidden-lg">
                     <div class="container">
                         
-                        <div class="row">
-                            <div id="sign_in_1" class="col-xs-12">
-                                <form>
-                                  <label>
-                                    <p class="label-txt">Email Address</p>
-                                    <input type="text" class="input">
-                                    <div class="line-box">
-                                      <div class="line"></div>
-                                    </div>
-                                  </label>
-                                  <label>
-                                    <p class="label-txt">Password</p>
-                                    <input type="text" class="input">
-                                    <div class="line-box">
-                                      <div class="line"></div>
-                                    </div>
-                                  </label>
-                                  
-                                <a class="btn btn--primary sec-btn mgn-tp_0" href="#customise-template">
-                                   <span class="btn__text sec-btn-txt">Login</span> 
-                                </a>
-                                <p class="">Forgot your username/ password?</p>
-                                <a class="btn btn--primary inv-btn mgn-tp_0" href="#customise-template">
-                                   <span class="btn__text inv-btn-txt">Login with Google</span> 
-                                </a>
-                                <p class="fnt-16 pd-btm-15">Not Account?<a class="sign-up-link" href="#0"> Sign up</a></p>
-                                </form>
-                            </div>
-                        </div>
-
                         <div class="row display-flex">
                             <div class="col-xs-3 col-sm-3 pd-tp-8">
                                 <i class="fas fa-home"></i>
