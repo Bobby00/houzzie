@@ -22,6 +22,11 @@
         <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/assets/favicon.png">
         <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/assets/favicon.png">
 
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/parallax.js"></script>
+        <script src="js/smooth-scroll.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <script src="js/custom-scripts.js"></script>
         <script src="https://kit.fontawesome.com/04001b9561.js" crossorigin="anonymous"></script>
 
     </head>
@@ -121,22 +126,27 @@
                                         <img id="reduce_sze_active" style="width: 50%;" src="img/assets/logo-short-1.png">
                                     </center>
                                 </div>    
-                                
+                            
                                 <div id="swap_large" class="swap-to-mini">
                                     <a class="btn btn--primary mgn-tp_0" id="choose_home_owner" href="#bottomNav">
                                         <span class="btn__text">I am a Father/Mother</span> 
                                     </a>
                                     
-                                    <a class="btn btn--primary" href="#customise-template">
+                                    <a class="btn btn--primary" id="choose_helper" href="#customise-template">
                                         <span class="btn__text">I am a Helper</span> 
                                     </a>
 
                                     <p class="lead mgn-tp-5 clr-whte">We'd like to know more about you to offer you exactly what you need. 
                                     </p>
                                 </div>
+
                                 <div id="swap_mini" class="text-center swap-to-large">
                                     <p class="clr-whte mrgn_btm--4"><strong class="clr-whte">Welcome to Houzzie!!</strong></p>
                                     <p class="clr-whte">I am a Mother/Father</p> 
+                                </div>
+                                <div id="swap_mini_2" class="text-center swap-to-large">
+                                    <p class="clr-whte mrgn_btm--4"><strong class="clr-whte">Welcome to Houzzie!!</strong></p>
+                                    <p class="clr-whte">I am a Helper</p> 
                                 </div>
                          </div>
                         </div>
@@ -144,35 +154,129 @@
                     </div>
                 </div>
 
+                <div class="sign_up_form" id="sign_up">
+                    <div class="container">
+                        <h2 class="clr-whte fnt-w8-600">Sign Up</h2>
+                    </div>
+                    <div class="sign-up">
+                        <br>
+                        <div class="container">
+                            <div class="row">
+                                <div id="sign_up" class="col-xs-12">
+                                    <form>
+                                        <div class="col-xs-12">
+                                          <label class="label-sign-up">
+                                            <p class="label-txt">Full Name:</p>
+                                            <input type="text" class="input fnt-16">
+                                            <div class="line-box">
+                                              <div class="line"></div>
+                                            </div>
+                                          </label>
+                                        </div>
+
+                                      <div class="col-xs-6">
+                                          <label class="label-sign-up">
+                                            <p class="label-txt">Gender:</p>
+                                            <input type="text" class="input fnt-16">
+                                            <div class="line-box">
+                                              <div class="line"></div>
+                                            </div>
+                                          </label>
+                                      </div>
+
+                                      <div class="col-xs-6">
+                                          <label class="label-sign-up">
+                                            <p class="label-txt">Nationality:</p>
+                                            <input type="text" class="input fnt-16">
+                                            <div class="line-box">
+                                              <div class="line"></div>
+                                            </div>
+                                          </label>
+                                      </div>
+
+                                      <div class="col-xs-12">
+                                          <label class="label-sign-up">
+                                            <p class="label-txt">ID/Passport Number:</p>
+                                            <input type="text" class="input fnt-16">
+                                            <div class="line-box">
+                                              <div class="line"></div>
+                                            </div>
+                                          </label>
+                                        </div>
+
+                                        <div class="col-xs-12">
+                                          <label class="label-sign-up">
+                                            <p class="label-txt">Email Address:</p>
+                                            <input type="email" class="input fnt-16">
+                                            <div class="line-box">
+                                              <div class="line"></div>
+                                            </div>
+                                          </label>
+                                        </div>
+
+                                        <div class="col-xs-12">
+                                          <label class="label-sign-up">
+                                            <p class="label-txt">Password:</p>
+                                            <input type="password" class="input fnt-16">
+                                            <div class="line-box">
+                                              <div class="line"></div>
+                                            </div>
+                                          </label>
+                                        </div>
+
+                                        <div class="col-xs-12">
+                                          <label class="label-sign-up">
+                                            <p class="label-txt">Confirm Password:</p>
+                                            <input type="password" class="input fnt-16">
+                                            <div class="line-box">
+                                              <div class="line"></div>
+                                            </div>
+                                          </label>
+                                        </div>
+
+                                      
+                                    <a class="btn btn--primary sec-btn mgn-btm-0 mgn-tp_0" href="#customise-template">
+                                       <span class="btn__text sec-btn-txt">Create Account</span> 
+                                    </a>
+                                    <br><br>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
                 <div id="bottomNav" class="bottom-nav">
-                <div class="container">
-                    <div class="row">
-                        <div id="sign_in_1" class="col-xs-12">
-                            <form>
-                              <label>
-                                <p class="label-txt">Email Address</p>
-                                <input type="text" class="input">
-                                <div class="line-box">
-                                  <div class="line"></div>
-                                </div>
-                              </label>
-                              <label>
-                                <p class="label-txt">Password</p>
-                                <input type="text" class="input">
-                                <div class="line-box">
-                                  <div class="line"></div>
-                                </div>
-                              </label>
-                              
-                            <a class="btn btn--primary sec-btn mgn-btm-0 mgn-tp_0" href="#customise-template">
-                               <span class="btn__text sec-btn-txt">Login</span> 
-                            </a>
-                            <p class="text-center "><a href="#0">Forgot your username/ password?</a></p>
-                            <a class="btn btn--primary inv-btn mgn-tp_0" href="#customise-template">
-                               <span class="btn__text inv-btn-txt">Login with Google</span> 
-                            </a>
-                            <p class="fnt-16 pd-btm-15 text-center">No Account?<a class="sign-up-link" href="#0"> Sign up</a></p>
-                            </form>
+                    <div class="container">
+                        <div class="row">
+                            <div id="sign_in_1" class="col-xs-12">
+                                <form>
+                                  <label>
+                                    <p class="label-txt">Email Address</p>
+                                    <input type="text" class="input fnt-16">
+                                    <div class="line-box">
+                                      <div class="line"></div>
+                                    </div>
+                                  </label>
+                                  <label>
+                                    <p class="label-txt">Password</p>
+                                    <input type="text" class="input fnt-16">
+                                    <div class="line-box">
+                                      <div class="line"></div>
+                                    </div>
+                                  </label>
+                                  
+                                <a class="btn btn--primary sec-btn mgn-btm-0 mgn-tp_0" href="#customise-template">
+                                   <span class="btn__text sec-btn-txt">Login</span> 
+                                </a>
+                                <p class="text-center "><a href="#0">Forgot your username/ password?</a></p>
+                                <a class="btn btn--primary inv-btn mgn-tp_0" href="#customise-template">
+                                   <span class="btn__text inv-btn-txt">Login with Google</span> 
+                                </a>
+                                <p class="fnt-16 pd-btm-15 text-center">No Account?<a class="sign-up-link" id="sign_up_btn" href="#0"> Sign up</a></p>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
