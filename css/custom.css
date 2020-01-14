@@ -15,6 +15,16 @@ body {
  color: #2E3A71;
 }
 
+.purple-btn-1 {
+  color: white;
+  background-color: #2E3A71;
+  padding: 10px 80px;
+  border-radius: 5px;
+  width: 100%;
+  text-decoration: none;
+  font-size: 16px;
+}
+
 .search-btn {
   text-decoration: none;
   background-color: #42B549;
@@ -91,6 +101,18 @@ body {
   border-radius :30px 30px 0px 0px;
 }
 
+.back-btn-2 {
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.back-btn-2 i {
+  font-size: 16px;
+  padding-right: 5px;
+}
+
 .person {
   background-color: white;
   border-radius: 10px;
@@ -121,6 +143,11 @@ body {
   border-radius :30px 30px 0px 0px;
 }
 
+.profile-content-area {
+  background: white;
+  border-radius :30px 30px 0px 0px;
+}
+
 .label-sign-up {
   margin: 20px 0px 10px 0px;
 }
@@ -144,6 +171,15 @@ body {
 .mgn-btm-18pc {
   margin-bottom: 18%;
 }
+
+.mgn-btm-10pc {
+  margin-bottom: 10%;
+}
+
+.mgn-tp-15pc {
+  margin-top: 15%;
+}
+
 
 .mgn-tp-30pc {
   margin-top: 35%;
@@ -243,6 +279,11 @@ input {
   transition: ease .6s;
 }
 
+.children-count {
+  font-size: 80px;
+  font-weight: 600;
+}
+
 input:focus + .line-box .line {
   width: 100%;
 }
@@ -254,6 +295,16 @@ input:focus + .line-box .line {
 }
 
 .sec-btn-txt {
+  color: white!important;
+}
+
+.tet-btn {
+  background: #42B549!important;
+  width: 100%!important;
+  border: 1px solid #42B549;
+}
+
+.tet-btn-txt {
   color: white!important;
 }
 
